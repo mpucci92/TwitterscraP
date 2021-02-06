@@ -26,7 +26,7 @@ def hash_generator(dictionary,key):
 if __name__ == '__main__':
     files_to_process = r"C:\\Users\\mp094\\Desktop\\Twint Jsons\\*.json"               # Location where raw twitter file is stored
 
-    es_client = Elasticsearch(['35.203.120.124:8607'], http_compress=True)             # ElasticSearch Instance
+    es_client = Elasticsearch([''], http_compress=True)             # ElasticSearch Instance
 
     for file in glob.glob(files_to_process):
 
